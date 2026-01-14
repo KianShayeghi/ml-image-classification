@@ -10,7 +10,7 @@ The work is organised as a single Jupyter notebook that walks through the full p
 
 ---
 
-## ⚠️ Hardware Requirements
+## Hardware Requirements
 
 **This project is intended to be run with GPU acceleration.**
 
