@@ -10,7 +10,7 @@ The work is organised as a single Jupyter notebook that walks through the full p
 
 ---
 
-## Hardware Requirements
+## Hardware requirements
 
 **This project is intended to be run with GPU acceleration.**
 
@@ -44,7 +44,7 @@ The dataset is downloaded externally and extracted into a local directory struct
 
 ---
 
-## Project Structure
+## Project structure
 
 The notebook follows a clear experimental pipeline:
 
@@ -57,7 +57,7 @@ All steps are implemented and explained directly in the notebook.
 
 ---
 
-## Model Overview
+## Model overview
 
 The core model is a **convolutional neural network (CNN)** implemented in PyTorch.
 
@@ -71,7 +71,7 @@ The notebook explains how convolutional layers progressively transform raw pixel
 
 ---
 
-## Training Procedure
+## Training procedure
 
 - The dataset is split into training and test sets.
 - Data is loaded using PyTorch’s `DataLoader`.
@@ -87,7 +87,7 @@ The notebook compares performance across different configurations to illustrate 
 
 ---
 
-## Adversarial Attacks
+## Adversarial attacks
 
 A key part of this project is the study of **adversarial robustness**.
 
@@ -107,7 +107,7 @@ The notebook demonstrates that even models with strong performance on clean data
 
 ---
 
-## Key Results and Observations
+## Key results and observations
 
 - CNNs are effective at learning meaningful visual features even from small 32×32 images.
 - Performance improves significantly compared to simpler or unstructured approaches.
@@ -167,3 +167,4 @@ This project provides a complete, end-to-end example of:
 - Stress-testing the model using adversarial attacks to understand its limitations.
 
 It is intended both as a **technical implementation** and as a **conceptual demonstration** of why robustness is a crucial concern in modern deep learning systems.
+
